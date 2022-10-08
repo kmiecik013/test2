@@ -7,7 +7,7 @@ import Taylor from './components/Taylor';
 function App() {
   return (
     <div>
-    <Home />
+    <About />
     <Taylor />
     </div>
   );

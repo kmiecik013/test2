@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Taylor from './components/Taylor';
 import NavBarThree from './components/NavBarThree';
 import Modal from './components/Modal';
+import Acknowledgement from './components/Acknowledgement';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 
@@ -27,6 +28,8 @@ function App() {
        <Modal open={isOpen} onClose={()=> setIsOpen(false)}>
         </Modal>
       </div>
+
+      <Acknowledgement />
     </div>
   );
 }

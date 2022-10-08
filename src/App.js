@@ -10,6 +10,7 @@ import Modal from './components/Modal';
 import Acknowledgement from './components/Acknowledgement';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
        <Modal open={isOpen} onClose={()=> setIsOpen(false)}>
         </Modal>
       </div>
+
+      <Contact />
 
       <Acknowledgement />
       <Footer />

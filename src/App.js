@@ -8,7 +8,8 @@ import Taylor from './components/Taylor';
 import NavBarThree from './components/NavBarThree';
 import Modal from './components/Modal';
 import Acknowledgement from './components/Acknowledgement';
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       </div>
 
       <Acknowledgement />
+      <Footer />
     </div>
   );
 }

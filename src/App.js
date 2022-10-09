@@ -21,6 +21,7 @@ function App() {
   return (
     <div>
       <NavBarThree />
+      <Home />
     <About />
     <Taylor />
 
@@ -31,12 +32,13 @@ function App() {
        <Modal open={isOpen} onClose={()=> setIsOpen(false)}>
         </Modal>
       </div>
-      
+
       <Service />
       <Contact />
 
       <Acknowledgement />
       <Footer />
+      
     </div>
   );
 }

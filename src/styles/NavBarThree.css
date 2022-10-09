@@ -344,3 +344,9 @@ a:-webkit-any-link {
 
 }
 
+@media (max-width: 375px) {
+  .Navbar > .nav-logo > .nav-title {
+    font-size: 22px;
+}
+}
+

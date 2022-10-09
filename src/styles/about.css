@@ -279,3 +279,19 @@
     }
 }
 
+@media (max-width: 320px){ 
+
+.art-therapy-description {
+  width: 100%;
+  font-family: "Overpass";
+  font-size: 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+.art-subtitle {
+  margin: 10px 10px 10px 10px;
+
+}
+
+}
+

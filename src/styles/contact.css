@@ -348,13 +348,15 @@
   }
 
   .contact-methods-left {
-    width:200px;
+    width:150px;
   }
 
   .contact-main-title {
     font-size: 60px;
+  }
 
-  
+  .specific-contact-method {
+    width: 250px;;
   }
 
 }

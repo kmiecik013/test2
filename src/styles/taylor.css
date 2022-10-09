@@ -307,5 +307,12 @@
   margin-top: 60px;
 }
 
+@media (max-width: 375px){
+  .all-descriptions {
+    margin:10px 5px 0px 5px;
+    font-size: 10px;
+  }
+}
+
 }
 

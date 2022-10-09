@@ -312,9 +312,9 @@ a:-webkit-any-link {
     margin-right: 0px;
     margin-bottom: 5px;
     padding-left: none;
-    margin-top: 20px;
+    margin-top: 18px;
     text-align: center;
-    font-size: 23px;
+    font-size: 17px;
   }
   .Navbar > .nav-logo {
     display: flex;
@@ -323,12 +323,17 @@ a:-webkit-any-link {
     color: #C7D36F;
     font-family: "Overpasss";
     font-weight:600;
-  
+    margin:0px;
   }
 
+  .Navbar > .nav-toggle {
+    margin-right:5px
+  }
   .Navbar > .nav-logo > .navbar-image {
     display:none;
   }
+
+
 
   .Navbar > .nav-items {
     padding-left: 10px;

@@ -89,7 +89,7 @@ arrows
         max: 375,
         min: 0
       },
-      items: 1,
+      items: 0.2,
       partialVisibilityGutter: 30
     },
     tablet: {

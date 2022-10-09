@@ -61,7 +61,7 @@
  
   font-family: "Overpass";
   font-size: 25px;
-  padding:0px 100px;
+  padding:0px 0px;
   animation:ease-out;
   transition: 0.5s;
   
@@ -77,13 +77,11 @@
   color: white;
   padding-bottom: 50px;
 }
-.text-on-left {
-  color:black;
-}
 
 .text-on-left {
-  margin: 0 50px;
-  font-size: 20px;;
+  margin: 0 0px;
+  font-size: 20px;
+  color:white;
 }
 
 @media (max-width: 1440px) {
@@ -105,7 +103,7 @@
 .art-therapy-description {
   font-family: "Overpass";
   font-size: 20px;
-  padding:0px 100px;
+  padding:0px 0px;
   animation:ease-out;
   transition: 0.5s;
   color:white;
@@ -151,7 +149,7 @@
   
   .art-therapy-description {
 
-      width: 450px;
+      
       font-family: "Overpass";
       font-size: 20px;
       margin-top:45px;
@@ -179,7 +177,7 @@
   
   .art-therapy-description {
 
-      width: 700px;
+     
       font-family: "Overpass";
       font-size: 20px;
       margin-top: 10px;
@@ -224,7 +222,7 @@
   
   .art-therapy-description {
 
-      width: 390px;
+      
       font-family: "Overpass";
       font-size: 15px;
       margin-top:30px;
@@ -256,11 +254,11 @@
   
   .art-therapy-description {
 
-      width: 320px;
+  
       font-family: "Overpass";
       font-size: 15px;
-      margin-top:30px;
-      margin-bottom: 50px;
+      margin: 10px 10px 10px 10px;
+      width:none;
     }
 
     .about-page-structure {
@@ -271,7 +269,7 @@
     }
 
     .art-subtitle {
-      font-size: 10px;
+      font-size: 50px;
       text-align: center;
       font-family: 'Dancing Script', cursive;
       margin-left:0px;
@@ -285,7 +283,7 @@
   width: 100%;
   font-family: "Overpass";
   font-size: 10px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 20px 0px 20px;
 }
 
 .art-subtitle {

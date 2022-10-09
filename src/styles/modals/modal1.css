@@ -162,9 +162,38 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
   .modal-image {
-    width:400px;
-    height:200px;
+    width:350px;
+    height:100px;
+  }
+
+  .important-contentID {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .x-bottonID {
+    position: absolute;
+    top:10px;
+    right:10px;
+  }
+
+  .modal-price {
+    padding: 0px 20px 30px 20px;
+    font-size: 15px;
+    font-family: "Overpasss";
+  }
+  
+  .modal-description {
+    padding: 0px 20px 10px 20px;
+    font-family: "Overpasss";
+    font-size: 15px;
+  }
+
+  .modal-title {
+
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top:10px;
   }
 }

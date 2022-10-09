@@ -82,7 +82,7 @@ export default function Contact() {
               <input type="submit" value="Submit" className="submit-button submit-position1" />
              
             </div>
-            <div className="message-box2 right">
+            <div>
               <textarea
                 name="message"
                 className="message-box"

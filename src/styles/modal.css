@@ -9,12 +9,8 @@
 }
 
 .important-content {
-  padding:50px 50px 60px 50px;
-  width:100%;  
+  padding:50px 50px 60px 50px; 
 }
-
-
-
 
 .x-botton {
   display: flex;
@@ -42,7 +38,6 @@
   font-size: 45px;
   margin-bottom: 40px;
   font-family: "Poppins";
-
 }
 
 .distress-number {
@@ -91,9 +86,7 @@
     padding-top: 30px;
   }
 
-  .distres-box {
-    width:300px;
-}
+
 
 .distress-title {
   font-size: 20px;
@@ -104,8 +97,8 @@
 @media (max-width: 425px) {
 .important-content {
   padding: 170px 50px 0px 50px;
-
 }
+
 .x-botton {
   margin-left:300px;
   margin-top:25px;
@@ -113,9 +106,46 @@
 }
 
 .model-styles {
-  width:350px;
-  height: 500px;
   border-radius:10px;
 }
 
+}
+
+@media (max-width: 375px) {
+
+  .model-styles {
+    border-radius:10px;
+    width:300px;
+  }
+
+  .x-botton {
+    margin-top:0px;
+  }
+
+  .crisis-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    padding-top: 0px;
+    margin-top:10px;
+  }
+
+  .important-content {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .crisis-option {
+    padding:0;
+  }
+
+  .distress-number {
+    margin: 5px 0px 10px 0px;
+  }
+
+  .distress-title {
+    font-size: 20px;
+    margin-top:5px;
+  }
+
+ 
 }

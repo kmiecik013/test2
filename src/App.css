@@ -6,8 +6,8 @@
 
 .gethelp-postioning {
   position: fixed;
-  top:92%;
-  left:85%;
+  bottom: 5px;
+  right: 5px;
   z-index: 100;
 }
 
@@ -64,15 +64,15 @@ transform: scale(1.01);
 
   .gethelp-postioning {
     position: fixed;
-    top:730px;
-    left:1220px;
+    bottom: 5px;
+    right: 5px;
   }
 } 
 
 @media (max-width: 1024px){ 
   .gethelp-postioning {
-    top:610px;
-    left: 820px;
+    bottom: 5px;
+    right: 5px;
 }
 .gethelp-button {
   border:none;
@@ -82,8 +82,8 @@ transform: scale(1.01);
 
 @media (max-width: 768px){ 
   .gethelp-postioning {
-    top:670px;
-    left:580px;
+    bottom: 5px;
+  right: 5px;
 }
 
 .gethelp-button {
@@ -96,8 +96,6 @@ transform: scale(1.01);
 @media (max-width: 425px){
 
   .gethelp-postioning {
-    top:none;
-    left:none;
     right:5px;
     bottom:5px
 }

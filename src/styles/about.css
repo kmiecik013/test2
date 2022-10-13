@@ -180,8 +180,7 @@
      
       font-family: "Overpass";
       font-size: 20px;
-      margin-top: 10px;
-      margin-left: 40px;
+      margin: 10px 15px 0px 15px;
     }
 
     .about-page-structure {
@@ -237,9 +236,9 @@
     }
 
     .art-subtitle {
-      font-size: 48px;
+      font-size: 37px;
       text-align: center;
-      margin-right: 50px;
+      margin-right: 0px;
       margin-left: 0px;
     }
 }
@@ -269,9 +268,9 @@
     }
 
     .art-subtitle {
-      font-size: 50px;
+      font-size: 35px;
       text-align: center;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Antro_Vectra_Bold';
       margin-left:0px;
       margin-right:0px;
     }

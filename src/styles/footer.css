@@ -4,6 +4,7 @@
   justify-content: space-around;
   padding:20px;
   background-color:#728153;
+
 }
 
 .main-contact {
@@ -17,7 +18,8 @@
 
 .name-pic-pair {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 5px 0;
 
 }
 
@@ -28,7 +30,7 @@
 }
 .sm-tag {
   margin:0 15px 0 15px;
-  font-size: 40px;
+  font-size: 20px;
   filter: hue-rotate(0deg);
   opacity:1;
   transition: 0.5s;
@@ -48,7 +50,7 @@
 
 .info-text {
   font-size: 25px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-family: "Poppins";
   color: white;
 }
@@ -98,10 +100,21 @@
     flex-direction: column;
   }
   .sage-email {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 5px;
     font-style: italic;
     font-family: "Poppins";
   }
 
+  .info-text {
+    font-size: 16px;
+
+  }
+
+  }
+
+  @media (max-width: 375px){
+    .info-text {
+      font-size: 10px;
+    }
   }

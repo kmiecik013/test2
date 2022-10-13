@@ -307,8 +307,6 @@
 
 @media (max-width: 375px){
 
-
-
   .more-structure {
     margin-left:27px;
 
@@ -321,6 +319,10 @@
 
   .specific-contact-method {
     margin-left:22px;
+  }
+
+  .message-box {
+    margin:0px;
   }
 
 }

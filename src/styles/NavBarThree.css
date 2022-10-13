@@ -208,8 +208,11 @@ a:-webkit-any-link {
     transform: translateX(-100%);
     transition: all 0.8s;
     padding-top: 25px;
-    padding-left: 20px;
     z-index: 3;
+  }
+
+  .Navbar > .nav-items > a {
+    padding-left: 20px;
   }
 
   .Navbar {
@@ -336,7 +339,6 @@ a:-webkit-any-link {
 
 
   .Navbar > .nav-items {
-    padding-left: 10px;
     height: 330%;
     padding-top: 20px;
   }
@@ -348,5 +350,10 @@ a:-webkit-any-link {
   .Navbar > .nav-logo > .nav-title {
     font-size: 22px;
 }
+
+.Navbar > .nav-items > a {
+  padding-left: 10px;
+}
+
 }
 

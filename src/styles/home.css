@@ -96,6 +96,12 @@
     margin-top: 320px;
     margin-bottom: 130px;    
   }
+
+  .home-page {
+    display:flex;
+    justify-content: center; 
+    height:600px;
+  }
 }
 
 @media (max-width: 320px){

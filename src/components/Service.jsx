@@ -73,7 +73,7 @@ arrows
         max: 3000,
         min: 2000
       },
-      items: 3.0,
+      items: 4.0,
       partialVisibilityGutter: 40
     },
     desktop: {
@@ -81,7 +81,7 @@ arrows
         max: 1999,
         min: 1440
       },
-      items: 2.0,
+      items: 3.0,
       partialVisibilityGutter: 40
     },
     mobile: {

@@ -74,14 +74,13 @@ a:-webkit-any-link {
 }
 .Navbar > .nav-logo > .nav-title {
   padding-left: 20px;
-  font-size: 40 px;
-  margin-top: 70px;
+  font-size: 35px;
+  margin-top: 75px;
   color: aliceblue;
   height: 40px;
   margin-left: 10px;
   animation:ease-out;
-  transition: 0.5s;
-
+  transition: 0.5s; 
 }
 
 

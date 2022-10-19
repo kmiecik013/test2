@@ -73,13 +73,13 @@
   font-weight:bolder;
   text-align: center;
   margin-right: 120px;
-  margin-top: 150px;
+  margin-top: 100px;
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .text-on-left {
-  margin: 0 0px;
+  margin: 0 100px;
   font-size: 20px;
   color:white;
 }
@@ -240,6 +240,12 @@
       text-align: center;
       margin-right: 0px;
       margin-left: 0px;
+    }
+
+    .text-on-left {
+      margin: 0 0;
+      font-size: 20px;
+      color:white;
     }
 }
 

@@ -1,5 +1,6 @@
 import "../styles/modal.css";
 import ReactDom from 'react-dom'
+import { GrClose } from "react-icons/gr";
 
 
 
@@ -33,21 +34,21 @@ export default function Modal({ open, children, onClose }) {
       <div style={OVERLAY_STYLES} />
       <div className="model-styles">
         <button onClick={onClose}
-                className="x-botton">X</button>
+                className="x-botton"><GrClose /></button>
         <div className="important-content">
         <h1 className="crisis-title">Call Centers </h1>
         <div className="distres-box">
         <div className="crisis-option">
           <h1 className="distress-title">Distress Center</h1>
-          <p className="distress-number"> 1-403-266-1601 </p>
+          <a className="distress-number" href="tel:14165709210"> 1-403-266-1601</a>
           </div>
           <div className="crisis-option">
           <h1 className="distress-title">Hope For Wellness Help</h1>
-          <h1 className="distress-number"> 11-855-242-3310 </h1>
+          <a className="distress-number" href="tel:18552423310"> 1-855-242-3310</a>
           </div>
           <div className="crisis-option">
           <h1 className="distress-title">National Indian Residential School Crisis</h1>
-          <h1 className="distress-number">1-866-925-4419</h1>
+          <a className="distress-number" href="tel:18669254419"> 1-866-925-4419</a>
           </div>
         </div>
         {children}

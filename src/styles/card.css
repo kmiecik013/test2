@@ -216,6 +216,12 @@
 
 
 @media (max-width: 425px){
+
+  .card-container:hover .title {
+    background-color: transparent;
+    color:white;
+  }
+  
   .card-container {
     overflow: hidden;
     transition: 0.5s;
@@ -234,6 +240,10 @@
     width:250x;
     border-radius: 10px;
     height: 350px;
+  }
+
+  .card-container:hover {
+    transform: scale(1.00);
   }
   
   .title {

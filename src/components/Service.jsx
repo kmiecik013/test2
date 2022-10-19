@@ -71,6 +71,14 @@ arrows
     desktop: {
       breakpoint: {
         max: 3000,
+        min: 2000
+      },
+      items: 3.0,
+      partialVisibilityGutter: 40
+    },
+    desktop: {
+      breakpoint: {
+        max: 1999,
         min: 1440
       },
       items: 2.0,

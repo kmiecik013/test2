@@ -150,15 +150,30 @@
 
 @media (max-width: 425px) {
 
+  .important-contentID {
+    width:340px;
+  }
+  .modal-description {
+    padding: 0px 20px 10px 20px;
+    font-family: "Overpasss";
+    font-size: 15px;
+  }
+
   .modal-image {
-    width:400px;
-    height:200px;
+    width:340px;
+    height:150px;
   }
 
   .modal-title {
     font-size: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
 
+  .modal-price {
+    padding: 0px 20px 30px 20px;
+    font-size: 20px;
+    font-family: "Overpasss";
   }
 
 }

@@ -45,8 +45,15 @@
   text-align: center;
   font-size: 20px;
   font-family: "Overpasss";
- 
+  margin: 0px 170px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: aqua;
+  border: 1px solid black
+}
 
+.distress-number:hover {
+  color:white;
 }
 
 .crisis-option {
@@ -59,7 +66,14 @@
   animation:ease-out;
   transition: 0.5s;
   border:solid 2px black;
+}
 
+.distress-number > a {
+  color: white;
+}
+
+.distress-number:hover {
+  transform: scale(1.1);
 }
 
 .crisis-option:hover {
@@ -96,56 +110,92 @@
 
 @media (max-width: 425px) {
 .important-content {
-  padding: 170px 50px 0px 50px;
-}
-
-.x-botton {
-  margin-left:300px;
-  margin-top:25px;
-  font-size: 20px;
+  width: 330px;
+  padding: 0 0 0 0;
 }
 
 .model-styles {
   border-radius:10px;
 }
 
+.distress-number {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Overpasss";
+  margin: 0px 40px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  background-color: rgb(94, 135, 94);
+  border: 1px solid black
+}
+.distress-number > a {
+  color: white;
+}
+
+.distress-number:hover {
+  transform: scale(1.1);
+}
+
+.crisis-option {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 20px 20px;
+ 
+  animation:ease-out;
+  transition: 0.5s;
+  border:solid 2px black;
+}
+.crisis-title {
+  font-size: 35px;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.distress-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Overpasss";
+  margin-bottom: 0px;
+}
+
 }
 
 @media (max-width: 375px) {
-
+  .important-content {
+    width: 330px;
+    padding: 0 0 0 0;
+  }
+  
+  
   .model-styles {
     border-radius:10px;
-    width:300px;
   }
-
-  .x-botton {
-    margin-top:0px;
-  }
-
-  .crisis-title {
-    font-size: 35px;
-    margin-bottom: 10px;
-    font-family: "Poppins";
-    padding-top: 0px;
-    margin-top:10px;
-  }
-
-  .important-content {
-    padding: 20px 20px 20px 20px;
-  }
-
-  .crisis-option {
-    padding:0;
-  }
-
+  
   .distress-number {
-    margin: 5px 0px 10px 0px;
-  }
-
-  .distress-title {
+    text-align: center;
     font-size: 20px;
-    margin-top:5px;
+    font-family: "Overpasss";
+    margin: 0px 40px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: blue;
+    border: 1px solid black
   }
-
- 
-}
+  
+  .crisis-option {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin: 20px 20px;
+   
+    animation:ease-out;
+    transition: 0.5s;
+    border:solid 2px black;
+  
+  }
+  }

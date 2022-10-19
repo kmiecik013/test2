@@ -136,6 +136,27 @@ a:-webkit-any-link {
   display: none;
 }
 
+@media (max-width: 1300px) {
+
+  .Navbar > .nav-logo > .nav-title {
+    font-size: 30px;
+  }
+  .Navbar > .nav-items > a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Navbar > .nav-logo > .nav-title {
+    font-size: 25px;
+  }
+  .Navbar > .nav-items > a {
+    font-size: 16px;
+  }
+  .Navbar > .nav-items {
+    margin-right: 20px;
+  }
+}
 
 
 @media (max-width: 1024px) {

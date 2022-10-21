@@ -112,7 +112,7 @@
 
 @media (max-width: 425px){ 
   .home-page {
-    height:1000px;
+    height:none;
   }
 
 }

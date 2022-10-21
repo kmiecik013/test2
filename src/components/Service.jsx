@@ -71,17 +71,17 @@ arrows
     desktop: {
       breakpoint: {
         max: 3000,
-        min: 2000
+        min: 1900
       },
-      items: 4.0,
+      items: 3.0,
       partialVisibilityGutter: 40
     },
     desktop: {
       breakpoint: {
-        max: 1999,
-        min: 1440
+        max: 1899,
+        min: 1024
       },
-      items: 3.0,
+      items: 2.3,
       partialVisibilityGutter: 40
     },
     mobile: {

@@ -47,7 +47,7 @@ export default function Modal({ open, children, onClose }) {
           <span className="distress-number"><a href="tel:18552423310"> 1-855-242-3310</a></span>
           </div>
           <div className="crisis-option">
-          <h1 className="distress-title">National Indian Residential School Crisis</h1>
+          <h1 className="NIRSC-title">National Indian Residential School Crisis</h1>
           <span className="distress-number"><a href="tel:18669254419"> 1-866-925-4419</a></span>
           </div>
         </div>

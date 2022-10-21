@@ -89,7 +89,7 @@ arrows
         max: 464,
         min: 376
       },
-      items: 0.6,
+      items: 0.4,
       partialVisibilityGutter: 30
     },
     mobile2: {
@@ -97,7 +97,7 @@ arrows
         max: 375,
         min: 0
       },
-      items: 0.2,
+      items: 0.1,
       partialVisibilityGutter: 30
     },
     tablet: {

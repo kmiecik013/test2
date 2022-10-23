@@ -57,7 +57,7 @@ a:-webkit-any-link {
   height: 130px;
   width: 130px;
   background-color: rgb(250, 254, 246);
-  margin-top: 50px;
+  margin-top: 70px;
   padding: 7px;
   z-index: 1000;
   border: solid 3px #728153;
@@ -75,7 +75,7 @@ a:-webkit-any-link {
 .Navbar > .nav-logo > .nav-title {
   padding-left: 20px;
   font-size: 35px;
-  margin-top: 75px;
+  margin-top: 85px;
   color: aliceblue;
   height: 40px;
   margin-left: 10px;

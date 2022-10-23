@@ -73,13 +73,13 @@ arrows
         max: 3000,
         min: 1900
       },
-      items: 3.0,
+      items: 2.3,
       partialVisibilityGutter: 40
     },
     desktop: {
       breakpoint: {
-        max: 1899,
-        min: 1024
+        max: 3000,
+        min: 1025
       },
       items: 2.3,
       partialVisibilityGutter: 40
@@ -89,7 +89,7 @@ arrows
         max: 464,
         min: 376
       },
-      items: 0.4,
+      items: 0.5,
       partialVisibilityGutter: 30
     },
     mobile2: {

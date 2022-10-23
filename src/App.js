@@ -12,6 +12,7 @@ import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Service from './components/Service';
+import BacktoTop from './components/BacktoTop';
 
 
 function App() {
@@ -33,8 +34,11 @@ function App() {
         </Modal>
       </div>
 
+      <BacktoTop />
+
       <Service />
       <Contact />
+
 
       <Acknowledgement />
       <Footer />

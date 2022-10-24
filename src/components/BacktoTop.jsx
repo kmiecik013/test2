@@ -1,5 +1,8 @@
 import {useEffect, useState} from 'react'
 import "../styles/backtotop.css"
+import { BiUpArrow } from "react-icons/bi";
+import { IoIosArrowUp } from "react-icons/io";
+
 
 
 export default function BacktoTop() {
@@ -30,7 +33,7 @@ export default function BacktoTop() {
 
     {backToTop && (
       <button className="uptotop-button"
-      onClick={scrollUp}>^
+      onClick={scrollUp}><IoIosArrowUp />
         
         </button>
     )}

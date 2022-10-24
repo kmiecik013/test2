@@ -8,7 +8,7 @@
 
 
 .subtitle-service {
-  font-family:"Overpasss";
+  font-family:'Dancing Script', cursive;
   text-align: center;
   font-size:35px;
   padding-bottom: 50px;
@@ -58,7 +58,7 @@
   height: 1000px;
 }
 .subtitle-text {
-  font-family: "Overpasss";
+  font-family: 'Dancing Script', cursive;
   font-size: 30px;
 }
 
@@ -68,10 +68,10 @@
 }
   
 .service-title {
-  font-family: 'Overpasss';
+  font-family: 'Antro_Vectra_Bold';
   font-size: 100px;
   margin-left: 80px;
-  padding-top: 100px;
+ margin-top: 50px;
 }
 
 .future-sess {

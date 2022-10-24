@@ -215,8 +215,10 @@
 @media (max-width: 425px){ 
 
   .sage-img {
-    height:200px;
-    border-radius: 10px;
+    width:100%;
+    height:none;
+    border-radius:none;
+    margin: 0px;
   }
   
   .art-therapy-description {

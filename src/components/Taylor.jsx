@@ -1,4 +1,5 @@
 import taylor from "../images/tayler5.jpg";
+import taylor6 from "../images/tayler6.jpg";
 import "../styles/taylor.css";
 
 
@@ -13,6 +14,7 @@ export default function Taylor() {
       <div className="structure-taylor-page">
       
         <img className="taylor-pic" src={taylor} />
+        <img className="taylor6-pic" src={taylor6} />
         
         
         <div className="all-descriptions">

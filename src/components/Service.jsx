@@ -58,7 +58,6 @@ arrows
    dotListClass=""
    showDots
    infinite
-   draggable
    focusOnSelect
    itemClass=""
    keyBoardControl

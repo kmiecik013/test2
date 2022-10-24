@@ -70,6 +70,25 @@
   transition: 0.5s;
 }
 
+.close-bottonID {
+  position: absolute;
+  bottom:20px;
+  right:20px;
+  border:none;
+  object-fit: none;
+  background-color:transparent;
+  height:30px;
+  font-size: 30px;
+  animation:ease-out;
+  transition: 0.5s;
+}
+
+.close-bottonID:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  color:rgb(250, 3, 3);
+}
+
 .x-bottonID:hover {
   transform: scale(1.2);
   cursor: pointer;
@@ -150,7 +169,11 @@
 
 @media (max-width: 425px) {
 
-
+  .close-bottonID {
+    bottom:10px;
+    right:10px;
+  }
+    
   .x-bottonID {
     top:10px;
     right:10px;

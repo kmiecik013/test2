@@ -43,6 +43,8 @@ export default function ModalId2({ open, children, onClose}) {
               className="modal-image"/>
           <button onClick={onClose}
                   className="x-bottonID"><GrClose /></button>
+          <button onClick={onClose}
+                  className="close-bottonID">Close</button>
         
       
   

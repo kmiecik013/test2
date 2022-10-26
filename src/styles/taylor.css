@@ -207,6 +207,11 @@
 }
 
 @media (max-width: 425px){
+
+  .taylor-section {
+    padding-bottom: 60px;
+  }
+
   .structure-taylor-page {
     display: flex;
     flex-direction: column;

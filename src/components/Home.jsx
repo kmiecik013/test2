@@ -1,6 +1,7 @@
 
 import "../styles/home.css";
-import SCtitle from './SCtitle'
+import SCtitle from './SCtitle';
+import Sage from './Sage';
 
 
 
@@ -11,6 +12,7 @@ export default function Home() {
         <p>“I breathe in calmness, I breathe out stress”</p>
       </div>
         <SCtitle />
+        <Sage />
     </div>
   );
 }

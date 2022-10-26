@@ -1,6 +1,7 @@
 import taylor from "../images/tayler5.jpg";
 import taylor6 from "../images/tayler6.jpg";
 import "../styles/taylor.css";
+import Sage from "./Sage";
 
 
 
@@ -59,6 +60,7 @@ export default function Taylor() {
         </div>
        
       </div>
+      <Sage />
     </div>
   );
 }

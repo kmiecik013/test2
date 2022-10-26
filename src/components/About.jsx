@@ -2,6 +2,7 @@ import art from "../images/art.jpeg";
 import art2 from "../images/newsage.jpg";
 import Card from "react-bootstrap/Card";
 import art3 from "../images/art3.jpg";
+import Sage from './Sage';
 import "../styles/about.css";
 
 export default function About() {
@@ -50,6 +51,8 @@ export default function About() {
           
        
       </div>
+
+      <Sage />
 
 
     

@@ -91,7 +91,7 @@
 
 
 .about-section {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: #728153;
 
 }
@@ -221,10 +221,10 @@
   }
   
   .art-therapy-description {  
-      font-family: "Overpass";
       font-size: 15px;
-      margin-top:30px;
-      margin-bottom: 50px;
+      margin-top:20px;
+      margin-bottom: 20px;
+      font-family: "Poppins";
     }
 
     .about-page-structure {
@@ -250,7 +250,8 @@
     .mobile-pic {
       display: flex;
       width:100%;
-    margin-right: 0px;
+      margin-right: 0px;
+      margin-bottom: 50px;
     }
 }
 

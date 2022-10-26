@@ -85,6 +85,9 @@
   margin: 0 0;
 }
 
+.carousel2 {
+  display: none;
+}
 
 @media (max-width: 768px){
 
@@ -137,7 +140,12 @@
 
 }
 
+
 @media (max-width: 425px){
+
+  .carousel1 {
+    display: none;
+  }
 
   .service-title {
     font-family: 'Antro_Vectra_Bold';

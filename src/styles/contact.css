@@ -302,7 +302,7 @@
   .message-box {
     margin-left:17px;
     height: 250px;
-    width:300px;
+    padding:20px;
     margin: 10px 0px 0px 17px;
   }
 

@@ -12,13 +12,13 @@ export default function Sage() {
   return (
     <div className="between-tags">
      
-    <Sage />
+    <Dots />
     <Leaf />
     <Leaf />
     <SC />
     <Leaf2 />
     <Leaf2 />
-    <Sage />
+    <Dots />
     
     </div>
     

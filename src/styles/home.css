@@ -83,7 +83,7 @@
 @media (max-width: 1024px){ 
   .fade-in-text {
     font-size: 60px;
-    color: #CCD6A6;
+    color: #224a1b;
     opacity:1; 
     text-align: center;
     
@@ -95,7 +95,7 @@
 @media (max-width: 768px){ 
   .fade-in-text {
     font-size: 40px;
-    color: #CCD6A6;
+    color: #224a1b;
     opacity:1; 
     text-align: center;
     margin-top: 320px;
@@ -113,6 +113,14 @@
 @media (max-width: 425px){ 
   .home-page {
     height:none;
+  }
+
+  .fade-in-text {
+    font-size: 40px;
+    color: #224a1b;
+    opacity:1; 
+    text-align: center;
+    margin: 240px 0px 130px 0px;    
   }
 
 }

@@ -1,6 +1,7 @@
 import art from "../images/art.jpeg";
-import newsage from "../images/newsage.jpg";
+import art2 from "../images/newsage.jpg";
 import Card from "react-bootstrap/Card";
+import art3 from "../images/art3.jpg";
 import "../styles/about.css";
 
 export default function About() {
@@ -12,6 +13,9 @@ export default function About() {
         <div className="title-strcuture">
       
      <h2 className="art-subtitle">What is Art Therapy?</h2>
+
+     <img className="mobile-pic" src={art3} />
+
      
 
         
@@ -37,7 +41,7 @@ export default function About() {
           <img className="sage-img" src={art} />
           <div>
             <div className="bottom-image">
-            <img className="sage-img2" src={newsage} />
+            <img className="sage-img2" src={art2} />
             </div>
             
 

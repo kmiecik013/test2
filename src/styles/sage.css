@@ -86,6 +86,7 @@
     margin: 80px 10px 10px 10px;
     opacity: 0.5;
     padding-bottom: 0px;
+    transform:scale(0.8);
   }
 
   .sageleaf {

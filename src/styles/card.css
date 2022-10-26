@@ -239,9 +239,9 @@
     position: relative;
     overflow: hidden;
     margin-top: 30px;
-    width:250x;
+    width:350px;
     border-radius: 10px;
-    height: 350px;
+    height: 500px;
   }
 
   .card-container:hover {
@@ -266,7 +266,7 @@
   
   
   .image-container img {
-    height: 350px;
+    height: 500px;
     animation:ease-out;
     transition: 0.5s;
     border-radius: 0px;

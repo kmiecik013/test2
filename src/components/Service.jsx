@@ -88,7 +88,7 @@ arrows
         max: 464,
         min: 376
       },
-      items: 0.5,
+      items: 0.07,
       partialVisibilityGutter: 30
     },
     mobile2: {

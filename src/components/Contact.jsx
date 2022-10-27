@@ -6,7 +6,7 @@ import "../styles/contact.css";
 
 const Result = () => {
   return (
-    <p> Your message has been successfully sent. I will contact you soon! </p>
+    <p className="result-message"> Your message has been successfully sent. I will contact you soon! </p>
   );
 };
 

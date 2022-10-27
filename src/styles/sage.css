@@ -4,6 +4,8 @@
   margin-top: 140px;
   padding-bottom: 40px;
   filter: brightness(0) invert(1);
+  transform: scale(1.2);
+  opacity: 0.5;
 }
 
 

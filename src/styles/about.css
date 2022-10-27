@@ -40,10 +40,6 @@
   width:750px
 }
 
-.sage-img:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
 
 .sage-img2 {
   opacity: 0.8;
@@ -121,10 +117,6 @@
   width:600px
 }
 
-.sage-img:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
 
 .about-page-structure {
   display: flex;

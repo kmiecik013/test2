@@ -1,9 +1,10 @@
 .home-sage {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   opacity: 0.5;
-  transform: scale(0.8)
+  transform: scale(1.2)
+
 }
 
 

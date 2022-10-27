@@ -7,26 +7,8 @@ import PT from "../images/PT.png"
 
 export default function Footer() {
   return (
-    <div className="column-organization">
-      <div className="main-contact">
-      
-      
-      <div className="name-pic-pair">
-        <IoMapSharp className="left-tag" />
-        <p className="info-text">Calgary, Alberta, Canada hello </p>
-      </div> 
-      <div className="name-pic-pair">
-        <FaPhoneAlt className="left-tag" />
-        <p className="info-text phone-number">(416) 570 9210</p>
-      </div>
-      <div className="name-pic-pair name-pic-pair-email">
-        <MdEmail className="left-tag" />
-        <p className="info-text sage-email">sageandcedar.arttherapy@gmail.com</p>
-      </div>
-     
-      
-      </div>
-      <div className="social-media-tags">
+    <div className="column-organization"> 
+    <div className="social-media-tags">
         <a
           href="https://www.instagram.com/sageandcedar.arttherapy/?hl=en"target="_blank"
           className="sm-tag"
@@ -47,6 +29,25 @@ export default function Footer() {
         </a>
        
       </div>
+      <div className="main-contact">
+      
+      
+      <div className="name-pic-pair">
+        <IoMapSharp className="left-tag" />
+        <p className="info-text">Calgary, Alberta, Canada hello </p>
+      </div> 
+      <div className="name-pic-pair">
+        <FaPhoneAlt className="left-tag" />
+        <p className="info-text phone-number">(416) 570 9210</p>
+      </div>
+      <div className="name-pic-pair name-pic-pair-email">
+        <MdEmail className="left-tag" />
+        <p className="info-text sage-email">sageandcedar.arttherapy@gmail.com</p>
+      </div>
+     
+      
+      </div>
+     
       <h3 className="copywrite"> Copyright Sage and Cedar Art Therapy – All rights reserved </h3>
     </div>
   );

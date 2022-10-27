@@ -45,6 +45,7 @@ export default function Contact() {
   return (
     <div id="contact">
       <div className="contact-one">
+          <h1 className="contact-main-title">Contact</h1> 
         <form className="form-structure" ref={form} onSubmit={sendEmail}>
           <div className="subtitles">
           <h1 className="contact-subtitle1">

@@ -11,7 +11,7 @@
 }
 
 .form-structure {
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: white;
   margin-right: 50px;
   margin-left: 50px;
@@ -24,7 +24,7 @@
 .more-structure {
   display: flex;
   justify-content: center;
-  padding-bottom:100px;
+  padding-bottom:50px;
 }
 
 
@@ -58,9 +58,7 @@
 .contact-main-title {
   font-family: 'Antro_Vectra_Bold';
   font-size: 100px;
-  margin-left: 80px;
-  margin-bottom: 20px;
-  padding-top: 100px;
+  margin: 0px 0px 0px 60px;
   color:whitesmoke
 }
 
@@ -160,7 +158,6 @@
 .result-text {
   margin-top: 5px;
   font-size: 15px;
-  height:50px;
   font-family: "Overpass";
   margin-top: 5px;
   color:green;

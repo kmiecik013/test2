@@ -86,7 +86,7 @@
 }
 
 .carousel2 {
-  display: none;
+  display: flex;
 }
 
 @media (max-width: 768px){

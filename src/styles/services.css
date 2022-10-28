@@ -151,6 +151,10 @@
 
 @media (max-width: 425px){
 
+  .slider-part {
+    padding-top:30px;
+  }
+
 
   .service-title {
     font-family: 'Antro_Vectra_Bold';
@@ -159,6 +163,7 @@
     margin-bottom: 0px;
     margin-left: 0;
     text-align: center;
+    padding-bottom: 0px;
   }
 
   .upcoming-sess-title {

@@ -22,6 +22,7 @@ function App() {
   return (
     <div>
       <NavBarThree />
+      
       <Home />
     <About />
     <Taylor />
@@ -38,6 +39,7 @@ function App() {
 
       <Service />
       <Contact />
+    
 
 
       <Acknowledgement />

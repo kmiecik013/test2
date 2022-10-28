@@ -3,6 +3,11 @@
   src: url("../fonts/Antro_Vectra.otf");
 }
 
+@font-face {
+  font-family: Antro_Vectra_Bolder;
+  src: url("../fonts/Antro_Vectra_Bolder.otf");
+}
+
 .Navbar {
   height: 100px;
   display: flex;
@@ -338,13 +343,14 @@ a:-webkit-any-link {
     margin-top: 18px;
     text-align: center;
     font-size: 23px;
+    font-family: "Antro_Vectra_Bolder";
+    font-weight: 900;
   }
   .Navbar > .nav-logo {
     display: flex;
     flex-direction:center;  
     font-weight: 700;
     color: #C7D36F;
-    font-family: "Overpasss";
     font-weight:600;
     margin:0px;
   }

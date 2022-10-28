@@ -365,44 +365,42 @@
   padding-top: 0px;
 }
 
-
-
 }
 
 @media (max-width: 375px){
 
-  .more-structure {
-    margin-left:27px;
-
-  }
+  
 
   .contact-methods-left {
     margin-bottom: 10px;
     align-items: center;
   }
 
-  .specific-contact-method {
-    margin-left:22px;
-  }
-
-  .message-box {
-    margin: 10px 20px 0px 0px;
-  }
 
 }
 
 @media (max-width: 320px){
 
   
-
-
-
-
-
   .contact-main-title {
     font-size: 60px;
   }
 
+  .specific-contact-method {
+    margin: 0px 60px;
+    width: 250px;
+  }
 
+  .more-structure{
+    margin:0 0px;
+  }
+
+  .form-structure {
+    margin:0px 0px;
+  }
+
+  .contact-one {
+    margin: 0 3px;
+  }
 
 }

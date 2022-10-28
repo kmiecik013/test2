@@ -29,6 +29,7 @@
   margin-left:0px;
   border-radius:  0px 10px 10px 0; 
   font-size: 25px;
+  font-family: "Poppins";
 }
 
 .atw {
@@ -229,7 +230,7 @@
     transition: 0.5s;
     animation: ease-in;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin:30px 20px 50px 20px;
     opacity: 1.0;
     backdrop-filter: blur(5px);
     background-color: rgb(252, 254, 250);
@@ -237,9 +238,8 @@
     animation:ease-out;
     transition: 0.5s; 
     position: relative;
-    overflow: hidden;
-    margin-top: 30px;
-    width:350px;
+    overflow: hidden; 
+    width:90%;
     border-radius: 10px;
     height: 500px;
   }
@@ -261,7 +261,7 @@
   }
   
   .atw {
-    font-size: 30px;;
+    font-size: 20px;;
   }
   
   

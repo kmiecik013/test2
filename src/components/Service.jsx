@@ -50,7 +50,7 @@ return (
   <div className="carousel1">
     <Carousel
    additionalTransfrom={0}
-arrows
+  arrows
    autoPlaySpeed={3000}
    centerMode
    className=""
@@ -72,7 +72,7 @@ arrows
         max: 3000,
         min: 1900
       },
-      items: 2.3,
+      items: 3.00,
       partialVisibilityGutter: 40
     },
     desktop: {
@@ -88,7 +88,7 @@ arrows
         max: 464,
         min: 376
       },
-      items: 0.07,
+      items: 0.15,
       partialVisibilityGutter: 30
     },
     mobile2: {
@@ -132,14 +132,14 @@ arrows
         <CardId5 />
         </Carousel>
         </div>
-<div className="carousel2">
+<div>
 <Carousel
   additionalTransfrom={0}
   arrows
   autoPlaySpeed={3000}
   centerMode={false}
   className=""
-  containerClass="container"
+  containerClass="container2"
   dotListClass=""
   draggable
   focusOnSelect={false}
@@ -154,7 +154,7 @@ arrows
   responsive={{
     mobile: {
       breakpoint: {
-        max: 425,
+        max: 500,
         min: 0
       },
       items: 1

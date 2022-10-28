@@ -33,9 +33,7 @@
   
 
 }
-.react-multiple-carousel__arrow {
- scale:1!important;
-}
+
         
 .sage-service {
   margin-top:50px;
@@ -85,8 +83,9 @@
   margin: 0 0;
 }
 
-.carousel2 {
+.container2 {
   display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px){
@@ -140,7 +139,7 @@
 
 .react-multiple-carousel__arrow {
   scale:1!important;
-  margin-right: 30px !important;
+  margin-right: 0px !important;
  }
 
 }

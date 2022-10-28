@@ -48,7 +48,7 @@ const NavBarThree = () => {
           <a className="about"href="/#about">About</a>
           <a className="therapist"href="/#therapist">Art Therapist</a>
           <a className="services"href="/#services">Services</a>
-          <a className="contact"href="/contact">Contact</a>
+          <a className="contact"href="/#contact">Contact</a>
 
           
     

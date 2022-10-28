@@ -169,6 +169,7 @@ return (
   sliderClass=""
   slidesToSlide={1}
   swipeable
+  renderDotsOutside
 ><CardId1 />
   <CardId2 />
     <CardId3 />

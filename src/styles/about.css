@@ -18,7 +18,7 @@
 
 .about-section {
   padding-bottom: 100px;
-  background-color: #728153;
+
 }
 
 .about-page-structure {
@@ -69,14 +69,14 @@
   text-align: center;
   margin-right: 120px;
   margin-top: 100px;
-  color: white;
+  color:  #728153;
   padding-bottom: 20px;
 }
 
 .text-on-left {
   margin: 0 100px;
   font-size: 20px;
-  color:white;
+  color: #728153;
 }
 
 .mobile-pic {
@@ -91,7 +91,7 @@
 
 .about-section {
   padding-bottom: 50px;
-  background-color: #728153;
+ 
 
 }
 
@@ -107,7 +107,7 @@
   padding:0px 0px;
   animation:ease-out;
   transition: 0.5s;
-  color:white;
+  color:#728153;
 }
 
 .sage-img {
@@ -130,7 +130,7 @@
   font-family: 'Antro_Vectra_Bold';
   font-weight:bolder;
   text-align: center;
-  color: white;
+  color: #728153;
   padding-bottom: 50px;
   margin: 80px 20px 0px 20px;
 

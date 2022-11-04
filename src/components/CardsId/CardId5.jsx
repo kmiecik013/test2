@@ -27,7 +27,7 @@ export default function CardId5(props) {
       </div>
       <div className="card-content">
       <div >
-        <h2 className="title">Individual2334434</h2>
+        <h2 className="title">Individual2334434fkejf</h2>
       </div>
       <div className="description"> 
     

@@ -38,7 +38,7 @@ export default function CardId1(props) {
             class={props.title}
             key={props.id}
             id= {props.id}
-            onClick= {handleClick} >More Infokddwndkkkmfelkeffkmefmefmefekmffefmekfnwinmedwdifneinkfeffefefffekfejfefeflcml</button>
+            onClick= {handleClick} >More Infokddwndkkkmdeifelkeffkmefmefmefekmffefmekfnwinmedwdifneinkfeffefefffekfejfefeflcml</button>
        <ModalId2
        open={isOpen} onClose={()=> setIsOpen(false)}>
         </ModalId2>

@@ -29,7 +29,7 @@ export default function CardId1(props) {
       </div>
       <div className="card-content">
       <div>
-        <h2 className="title atw">Art Therapy Wvvdveevjnfncnwjnwcnjwnfeffejfkrjfkefkjfrifkjedmdnfefedwddldedorkshops</h2>
+        <h2 className="title atw">Art Therapy Wvvdveevjnfncnwjnwcnjwnfeffejfkrjfkefkjedmdnfefedwddldedorkshops</h2>
       </div>
       <div className="description"> 
       

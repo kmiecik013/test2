@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import art3 from "../images/art3.jpg";
 import Sage from './Sage';
 import "../styles/about.css";
+import { GiLindenLeaf } from "react-icons/gi";
 
 export default function About() {
   return (
@@ -35,6 +36,15 @@ export default function About() {
               the emphasis is based on the process and self-expression, not the
               final product. Art therapy also aligns with the belief that
               everyone is innately creative.</p>
+
+              <div className="green-leaves">
+          <GiLindenLeaf 
+            className="single-green-leaf-about"></GiLindenLeaf>
+           <GiLindenLeaf 
+            className="single-green-leaf-about"></GiLindenLeaf >
+          <GiLindenLeaf 
+            className="single-green-leaf-about"></GiLindenLeaf >
+            </div>
             
             </div>
             </div>

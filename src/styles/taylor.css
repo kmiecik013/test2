@@ -85,6 +85,16 @@
   display: none;
 }
 
+ .green-leaves {
+    display: flex;
+    justify-content: center;
+  }
+
+  .single-green-leaf {
+    margin: 30px 20px 0 20px;
+    font-size: 50px;
+    color:rgb(2, 187, 2)
+  }
 
 
 @media (max-width: 1440px) {
@@ -119,6 +129,8 @@
     margin-top:20px;
     margin-bottom: 30px;
   }
+
+ 
 
 }
 

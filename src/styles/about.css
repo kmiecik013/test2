@@ -83,6 +83,12 @@
   display: none;
 }
 
+.single-green-leaf-about {
+  margin: 30px 20px 0 20px;
+  font-size: 50px;
+  color: #91b689;
+  transform:rotate(180deg) scaleY(-1)
+}
 
 
 @media (max-width: 1440px) {

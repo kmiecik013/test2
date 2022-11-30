@@ -2,6 +2,8 @@ import taylor from "../images/tayler5.jpg";
 import taylor6 from "../images/tayler6.jpg";
 import "../styles/taylor.css";
 import Sage from "./Sage";
+import { IoIosLeaf } from "react-icons/io";
+import { GiLindenLeaf } from "react-icons/gi";
 
 
 
@@ -56,8 +58,21 @@ export default function Taylor() {
             hope is that my clients feel the power of Cedar in and out of their
             Art Therapy session
           </p>
+          
+        <div className="green-leaves">
+          <GiLindenLeaf 
+            className="single-green-leaf"></GiLindenLeaf>
+           <GiLindenLeaf 
+            className="single-green-leaf"></GiLindenLeaf >
+          <GiLindenLeaf 
+            className="single-green-leaf"></GiLindenLeaf >
+            </div>
           </div>
+
+         
+          
         </div>
+
        
       </div>
       <Sage />

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
+import { GiLeafSkeleton } from "react-icons/gi";
 
 
 
@@ -54,6 +55,9 @@ export default function Contact() {
           </h1>
           </div>
           <div className="more-structure">
+          <GiLeafSkeleton
+             className="contact-leaf-left">
+              </GiLeafSkeleton>
             <div className="contact-methods-left">
               <div className="specific-contact-method left">
                 <input
@@ -92,6 +96,10 @@ export default function Contact() {
               <div className="result-text result1">{result ? <Result /> : null}</div>
               </div>
               
+            <GiLeafSkeleton
+             className="contact-leaf-right">
+              </GiLeafSkeleton>
+              
             </div>
               <div className="send-and-result"> 
 
@@ -101,7 +109,7 @@ export default function Contact() {
                
                 
             </div>
-           
+            
         </form>
       </div>
     

@@ -23,7 +23,7 @@ export default function Taylor() {
         <div className="all-descriptions">
           
           <h1 className="taylor-title">
-        Meet the Therapist
+        Meet Tayler yah
       </h1>
           <div className="all-descriptions">
           <p className="tayler-description">

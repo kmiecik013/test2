@@ -34,10 +34,12 @@
 
 .sage-img {
   height:500px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .sage-img2 {
-  width:750px
+  width:750px;
+  border-radius: 10px 0px 0px 0px;
 }
 
 
@@ -45,6 +47,7 @@
 .sage-img2 {
   opacity: 0.8;
   cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -117,7 +120,7 @@
 }
 
 .sage-img {
-  height:400px;
+  height:400px; 
 }
 
 .sage-img2 {

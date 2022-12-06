@@ -2,7 +2,6 @@ import { useState } from 'react'
 import individual from "../../images/individual.jpeg";
 import "../../styles/card.css";
 import ModalId3 from "../ModalIds/ModalId3";
-
 import art from "../../images/art.jpeg"
 
 
@@ -29,7 +28,7 @@ export default function CardId1(props) {
       </div>
       <div className="card-content">
       <div>
-        <h2 className="title atw">Art Therapy</h2>
+        <h2 className="title atw">Workshops</h2>
       </div>
       <div className="description"> 
       

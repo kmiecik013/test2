@@ -41,14 +41,16 @@ const NavBarThree = () => {
             className="nav-title"
             href="/#home">Sage and Cedar Art Therapy</a>
             </div>
+      
       <div
         className={`nav-items ${isOpen && "open"}`}>
+      
 
-          <a className="home" href="/">Home</a>
-          <a className="about"href="/#about">About</a>
-          <a className="therapist"href="/#therapist">Art Therapist</a>
-          <a className="services"href="/#services">Services</a>
-          <a className="contact"href="/#contact">Contact</a>
+          <a className="home element-inside" href="/">Home</a>
+          <a className="about element-inside"href="/#about">About</a>
+          <a className="therapist element-inside"href="/#therapist">Art Therapist</a>
+          <a className="services element-inside"href="/#services">Offerings</a>
+          <a className="contact element-inside"href="/#contact">Contact</a>
 
           
     
@@ -56,6 +58,7 @@ const NavBarThree = () => {
         
          
         
+
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

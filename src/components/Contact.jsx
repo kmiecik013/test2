@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
 import { GiLeafSkeleton } from "react-icons/gi";
+import Sage2 from "./Sage2";
 
 
 
@@ -111,6 +112,10 @@ export default function Contact() {
             </div>
             
         </form>
+
+        <Sage2 
+        className="contact-sage">
+          </Sage2>
       </div>
     
     </div>

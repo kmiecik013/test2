@@ -75,6 +75,7 @@ a:-webkit-any-link {
   cursor: pointer;
   animation:ease-in-out;
   transition: 0.5s;
+  transform: scale(1.05);
 
 }
 .Navbar > .nav-logo > .nav-title {
@@ -92,8 +93,10 @@ a:-webkit-any-link {
 
 .Navbar > .nav-logo > .nav-title:hover {
   cursor:pointer;
-  color:#aacb63;
   box-shadow: 0px 15px 17px -10px;
+  font-weight: bolder;
+ 
+ 
   
 }
 
@@ -109,32 +112,41 @@ a:-webkit-any-link {
   position: relative;
   opacity: 0.9;
   font-family: "Poppins";
+  
 
 }
 
 
+.element-inside {
+  position: absolute;
+}
+
+.element-inside:hover {
+  transform: scale(1.5);
+}
+
 .Navbar > .nav-items > a:hover {
   opacity: 1;
-  color:#aacb63;
   text-shadow: 15px 15px 15px -5px;
   box-shadow: 0px 15px 15px -5px;
- 
+  
 }
 
 .Navbar > .nav-items > a::before {
   content: "";
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 0;
   height: 2px;
   background: #DFE8CC;
   transition: all 0.45s;
+  
  
 }
 
 .Navbar > .nav-items > a:hover::before {
   width: 100%;
+  
 }
 
 .Navbar > .nav-toggle {

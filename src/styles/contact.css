@@ -3,6 +3,10 @@
   src: url("../fonts/Antro_Vectra_Bolder.otf");
 }
 
+.contact-sage {
+  filter: invert(1);
+}
+
 .contact-methods-left {
   display:flex;
   justify-content: center;

@@ -5,6 +5,7 @@ import art3 from "../images/art3.jpg";
 import Sage from './Sage';
 import "../styles/about.css";
 import { GiLindenLeaf } from "react-icons/gi";
+import { IoLeafOutline } from "react-icons/io5";
 import { Parallax } from 'react-parallax'
 
 export default function About() {
@@ -41,12 +42,12 @@ export default function About() {
               everyone is innately creative.</p>
 
               <div className="green-leaves">
-          <GiLindenLeaf 
-            className="single-green-leaf-about"></GiLindenLeaf>
-           <GiLindenLeaf 
-            className="single-green-leaf-about"></GiLindenLeaf >
-          <GiLindenLeaf 
-            className="single-green-leaf-about"></GiLindenLeaf >
+          <IoLeafOutline 
+            className="single-green-leaf-about"></IoLeafOutline>
+            <IoLeafOutline 
+            className="single-green-leaf-about"></IoLeafOutline>
+           <IoLeafOutline 
+            className="single-green-leaf-about"></IoLeafOutline>
             </div>
             
             </div>

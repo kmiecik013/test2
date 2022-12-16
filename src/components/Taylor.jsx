@@ -4,6 +4,7 @@ import "../styles/taylor.css";
 import Sage from "./Sage";
 import { IoIosLeaf } from "react-icons/io";
 import { GiLindenLeaf } from "react-icons/gi";
+import { IoLeafOutline } from "react-icons/io5";
 
 
 
@@ -60,12 +61,12 @@ export default function Taylor() {
           </p>
           
         <div className="green-leaves">
-          <GiLindenLeaf 
-            className="single-green-leaf"></GiLindenLeaf>
-           <GiLindenLeaf 
-            className="single-green-leaf"></GiLindenLeaf >
-          <GiLindenLeaf 
-            className="single-green-leaf"></GiLindenLeaf >
+          <IoLeafOutline 
+            className="single-green-leaf"></IoLeafOutline>
+           <IoLeafOutline 
+            className="single-green-leaf"></IoLeafOutline>
+          <IoLeafOutline 
+            className="single-green-leaf"></IoLeafOutline>
             </div>
           </div>
 

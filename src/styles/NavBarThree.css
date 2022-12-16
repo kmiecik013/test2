@@ -242,6 +242,7 @@ a:-webkit-any-link {
 
   .Navbar {
     height:100px;
+    background-color: rgba(114,129,83);
   }
 
   .Navbar > .nav-logo > .nav-title {

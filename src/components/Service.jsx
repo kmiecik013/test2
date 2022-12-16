@@ -11,7 +11,6 @@ import CardId2 from "./CardsId/CardId2.jsx";
 import CardId3 from "./CardsId/CardId3.jsx";
 import CardId4 from "./CardsId/CardId4.jsx";
 import CardId5 from "./CardsId/CardId5.jsx";
-import Fade from 'react-reveal/Fade';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 

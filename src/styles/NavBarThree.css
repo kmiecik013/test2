@@ -16,6 +16,7 @@
   background-color: rgba(114,129,83, 0.7);
   width: 100%;
   position: absolute;
+  z-index:10000
 
 
 }

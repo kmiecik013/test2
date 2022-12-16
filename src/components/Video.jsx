@@ -5,7 +5,7 @@ import "../styles/video.css"
 export default function Video() {
 
   return (
-    <div >
+    <div>
       <video src={video} 
         type="video/mp4"
         autoPlay 

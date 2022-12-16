@@ -1,5 +1,4 @@
 import '../styles/acknowledgement.css'
-import Slide from 'react-reveal/Slide';
 
 export default function Acknowledgement() {
 

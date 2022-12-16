@@ -5,9 +5,12 @@ import art3 from "../images/art3.jpg";
 import Sage from './Sage';
 import "../styles/about.css";
 import { GiLindenLeaf } from "react-icons/gi";
+import { Parallax } from 'react-parallax'
 
 export default function About() {
   return (
+
+
     <div className="about-section"id="about">
      
       <div className="about-page-structure">
@@ -67,5 +70,6 @@ export default function About() {
 
     
     </div>
+   
   );
 }

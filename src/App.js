@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <NavBarThree />
-      
+
       <Home />
     <About />
     <Taylor />

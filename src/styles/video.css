@@ -1,0 +1,22 @@
+.video-source {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+@media (max-width: 768px){
+
+  .video-source {
+  height: 614px;
+  }
+}
+
+@media (max-width: 450px){
+
+  .video-source {
+  height: 900px;
+  }
+}

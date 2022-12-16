@@ -8,6 +8,28 @@
   src: url("../fonts/Antro_Vectra_Bolder.otf");
 }
 
+.tranquility-title {
+  margin: 400px 0 0 0;
+  font-family: Antro_Vectra_Bold;
+  color:white;
+  font-size: 100px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 10px black;
+  
+
+
+
+
+}
+.home-overlay {
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0, 0.2);
+  
+}
+
 .home-page {
   display:flex;
   justify-content: center; 
@@ -105,6 +127,15 @@
     margin-top: 320px;
     margin-bottom: 130px; 
 
+  }
+
+  .home-overlay {
+    width: 100%;
+    height: 616px;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0, 0.2);
+    
   }
 
   .home-page {

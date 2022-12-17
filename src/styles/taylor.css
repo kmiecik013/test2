@@ -20,7 +20,7 @@
   font-family: 'Antro_Vectra_Bold';
   text-align: center;
   color:  #2e3e2b;
-  margin-top:30px;
+  margin-top:10px;
   margin-bottom: 50px;
 }
 
@@ -33,11 +33,11 @@
 
 .all-descriptions {
   font-family: "Overpass";
-  font-size: 23px;
+  font-size: 21px;
   color:#728153;
   animation:ease-out;
   transition: 0.5s;
-  margin:0px 80px;
+  margin:0px 40px;
 }
 
 

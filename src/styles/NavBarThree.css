@@ -113,6 +113,8 @@ a:-webkit-any-link {
   position: relative;
   opacity: 0.9;
   font-family: "Poppins";
+  animation:ease-out;
+  transition: 0.5s; 
   
 
 }

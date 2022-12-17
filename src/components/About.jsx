@@ -13,6 +13,8 @@ export default function About() {
 
 
     <div className="about-section"id="about">
+
+<Sage />
      
       <div className="about-page-structure">
 

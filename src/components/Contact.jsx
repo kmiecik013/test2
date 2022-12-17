@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
 import { GiLeafSkeleton } from "react-icons/gi";
 import Sage2 from "./Sage2";
+import { IoLeafOutline } from "react-icons/io5";
 
 
 
@@ -45,20 +46,29 @@ export default function Contact() {
   }, 7000);
 
   return (
-    <div id="contact">
+    <div >
       <div className="contact-one">
-          <h1 className="contact-main-title">Contact</h1> 
+          <h1 className="contact-main-title" id="contact">Contact</h1> 
+
         <form className="form-structure" ref={form} onSubmit={sendEmail}>
+
+          <div className="top-layer">
+            
+            <IoLeafOutline
+             className="contact-leaf-left">
+              </IoLeafOutline>
           <div className="subtitles">
           <h1 className="contact-subtitle1">
             Ready to take the next step? </h1>
             <h1 className="subtitle2">Send us a message!
           </h1>
+          </div> 
+          <IoLeafOutline
+             className="contact-leaf-right">
+              </IoLeafOutline>
           </div>
           <div className="more-structure">
-          <GiLeafSkeleton
-             className="contact-leaf-left">
-              </GiLeafSkeleton>
+          
             <div className="contact-methods-left">
               <div className="specific-contact-method left">
                 <input
@@ -97,9 +107,7 @@ export default function Contact() {
               <div className="result-text result1">{result ? <Result /> : null}</div>
               </div>
               
-            <GiLeafSkeleton
-             className="contact-leaf-right">
-              </GiLeafSkeleton>
+           
               
             </div>
               <div className="send-and-result"> 

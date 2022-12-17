@@ -37,6 +37,7 @@ export default function Modal({ open, children, onClose }) {
                 className="x-botton"><GrClose /></button>
         <div className="important-content">
         <h1 className="crisis-title">Call Centers </h1>
+        
         <div className="distres-box">
         <div className="crisis-option">
           <h1 className="distress-title">Distress Center</h1>

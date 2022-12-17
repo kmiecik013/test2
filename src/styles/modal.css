@@ -8,8 +8,10 @@
   border-radius:10px;
 }
 
+
 .important-content {
   padding:30px 70px 60px 70px; 
+  border: solid 2px black;
 }
 
 .x-botton {
@@ -34,12 +36,14 @@
   font-family: "Poppins";
   margin-bottom: 5px;
   margin-top: 10px;
+  
 }
 
 .crisis-title {
   font-size: 45px;
-  margin: 0px 0px 30px 0px;
-  font-family: "Poppins"; 
+  font-family: "Overpass"; 
+  text-align: center;
+  margin-top: 0;
 }
 
 .distress-number {
@@ -47,7 +51,7 @@
   font-size: 20px;
   font-family: "Overpasss";
   margin: 0px 170px;
-  padding: 10px 0px;
+  padding: 10px 10px;
   border-radius: 10px;
   background-color: rgb(94, 135, 94);
   
@@ -58,33 +62,37 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(225, 250, 215);
   padding: 0px 0px 20px 0px;
   margin-bottom: 20px;
   animation:ease-out;
   transition: 0.5s;
   border-radius: 5px;
+  border: solid 2px black;
 
 }
 
 .distress-number > a {
   color: white;
+  animation:ease-out;
+  transition: 0.5s;
 }
 
 .distress-number:hover {
-  transform: scale(1.1);
+  background-color: #91b689;
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px -5px;
 }
 
 .crisis-option:hover {
   background-color: rgb(197, 228, 185);
-  cursor: pointer;
   transform: scale(1.02);
   color: black;
 }
 
 .NIRSC-title {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Poppins";
   margin-bottom: 0px;
   margin-top: 10px;

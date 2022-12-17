@@ -18,12 +18,12 @@
 
 .about-section {
   padding-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 0px;
 
 }
 
 .about-page-structure {
-  margin: 0 0px;
+  margin: 80px 0 120px 0;
 }
 
 
@@ -35,21 +35,15 @@
 
 .sage-img {
   height:500px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0 30px 0 0;
 }
 
 .sage-img2 {
   width:750px;
-  border-radius: 10px 0px 0px 0px;
-}
-
-
-
-.sage-img2 {
-  opacity: 0.8;
-  cursor: pointer;
   border-radius: 10px 10px 10px 10px;
 }
+
 
 
 .about-page-structure {
@@ -78,7 +72,7 @@
 }
 
 .text-on-left {
-  margin: 0 100px;
+  margin: 0 80px 0 50px ;
   font-size: 20px;
   color: #728153;
 }

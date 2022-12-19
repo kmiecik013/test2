@@ -12,6 +12,7 @@ import CardId3 from "./CardsId/CardId3.jsx";
 import CardId4 from "./CardsId/CardId4.jsx";
 import CardId5 from "./CardsId/CardId5.jsx";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Sage from "./Sage.jsx";
 
 
 
@@ -177,6 +178,8 @@ return (
         </Carousel>
         </div>
   </div>
+
+  <Sage />
 
  </div>
 )

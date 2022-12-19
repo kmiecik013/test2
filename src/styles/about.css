@@ -18,12 +18,15 @@
 
 .about-section {
   padding-bottom: 100px;
-  margin-top: 0px;
+  margin-top: 850px;
+  background-color: white;
+  border-top: 3px solid black;
+  
 
 }
 
 .about-page-structure {
-  margin: 80px 0 120px 0;
+  margin: 50px 0 120px 0;
 }
 
 

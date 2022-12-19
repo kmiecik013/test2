@@ -11,13 +11,18 @@
 .tranquility-title {
   display: flex;
   justify-content: center;
-  padding:350px 0 0 0;
+  padding:300px 0 0 0;
   font-family: Antro_Vectra_Bold;
   color:white;
   font-size: 100px;
   font-weight: bolder;
   text-shadow: 5px 5px 10px black;
-  
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  left:-50%;
+  right:-50%;
+
 }
 
 
@@ -25,101 +30,63 @@
   display:flex;
   justify-content: center; 
   height: 100%;
-  position:fixed;
+  position:relative;
   z-index: -10000;
+
 }
 
 .fade-in-text {
-  margin: 400px 30px 10px 30px ;
   font-family: "Antro_Vectra_Bold";
   font-size: 50px;
-  color: #224a1b;
-  opacity: 0.7; 
-  animation: fadeInout 4s;
+  color: white;
+  animation: fadeInout 2s;
   animation-fill-mode: forwards;
-  padding-bottom: 160px;
+  position: absolute;
+  left:-50%;
+  right: -50%;
+  font-family: "Poppins";
 }
 
 
 
 @keyframes fadeInout {
   0% { opacity: 0; }
-  30% {opacity: 1;}
-  70% { opacity: 1; }
-  100% { opacity: 0;}
+  100% {opacity: 1;}
 }
 
 @-moz-keyframes fadeInout {
   0% { opacity: 0; }
-  30% {opacity: 1;}
-  70% { opacity: 1; }
-  100% { opacity: 0;}
+  100% {opacity: 1;}
 }
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
-  30% {opacity: 1;}
-  70% { opacity: 1; }
-  100% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 @-o-keyframes fadeIout {
   0% { opacity: 0; }
-  30% {opacity: 1;}
-  70% { opacity: 1; }
-  100% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 @-ms-keyframes fadeInout {
   0% { opacity: 0; }
-  30% {opacity: 1;}
-  70% { opacity: 1; }
-  100% { opacity: 0;}
-}
-
-
-@media (max-width: 1450px){
-  .fade-in-text {
-    margin-top: 400px;
-    margin-bottom: 130px;
-    font-family: "Antro_Vectra_Bold";
-    font-size: 50px;
-    color: #224a1b;
-    opacity: 0.7; 
-    margin:30px, 30px;
-    animation: fadeInout 4s;
-    animation-fill-mode: forwards;
-    padding-bottom: 0;
-    
-  }
-}
-
-@media (max-width: 1440px){ 
-  .fade-in-text {
-  margin: 400px 30px 0px 30px ;
-  }
-}
-
-@media (max-width: 1024px){ 
-  .fade-in-text {
-    font-size: 60px;
-    color: #224a1b;
-    opacity:1; 
-    text-align: center;
-  }
-  
+  100% { opacity: 1;}
 }
 
 
 @media (max-width: 768px){ 
   .fade-in-text {
     font-size: 40px;
-    color: #224a1b;
+    color: white;
     opacity:1; 
     text-align: center;
     margin-top: 320px;
     margin-bottom: 130px; 
+  }
 
+  .tranquility-title {
+    font-size: 50px;
   }
 
   .home-overlay {
@@ -146,7 +113,7 @@
 
   .fade-in-text {
     font-size: 37px;
-    color: #224a1b;
+    color:white;
     opacity:1; 
     text-align: center;
     margin: 240px 10px 130px 10px;    

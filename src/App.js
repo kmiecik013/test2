@@ -21,11 +21,7 @@ function App() {
   return (
 
 
-
-
-   <div>
-
-
+<div>
 
  <div className="gethelp-postioning">
 
@@ -36,23 +32,32 @@ function App() {
 
 
       </div>
-
       
+   <div className="wrapper">
 
+
+
+
+
+ 
+
+   
+
+  <div className="top"> 
   
-        
 
       <NavBarThree />
 
    <Home />
 
-
+  </div>
 
       
     
     
 
-  
+  <div className="bottom">
+    
     <About/>
     
     
@@ -69,6 +74,8 @@ function App() {
       <Acknowledgement />
       <Footer />
 
+   </div>
+</div>
 
 </div>
   

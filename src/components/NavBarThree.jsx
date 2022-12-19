@@ -45,7 +45,7 @@ const NavBarThree = () => {
       <div
         className={`nav-items ${isOpen && "open"}`}>
       
-
+    
           <a className="home element-inside" href="/">Home</a>
           <a className="about element-inside"href="/#about">About</a>
           <a className="therapist element-inside"href="/#therapist">Art Therapist</a>

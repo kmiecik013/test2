@@ -11,18 +11,22 @@ import "../styles/video.css"
 export default function Home() {
   return (
 
-
-
-   
+<div>
+  <h1 className="tranquility-title">Let Art be your Peace </h1>
 <div className="home-overlay">
-      
-    <Video />
+<div className="home-page"id="home">
+
+  
+
+
+
+     <Video />
     
     
-    <div className="home-page"id="home">
-
+  
+    
       
-
+</div>
        
         </div> 
 

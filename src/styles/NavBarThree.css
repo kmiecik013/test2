@@ -13,10 +13,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(114,129,83, 0.7);
+  background-color: rgba(114,129,83, 0.8);
   width: 100%;
   position: absolute;
-  z-index:10000
+  z-index:10000;
 
 
 }

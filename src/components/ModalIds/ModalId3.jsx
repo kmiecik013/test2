@@ -44,8 +44,7 @@ export default function ModalId3({ open, children, onClose}) {
       <h1 className="modal-title">Art Therapy Workshops</h1>  
       <button onClick={onClose}
               className="x-bottonID"><GrClose /></button>
-      <button onClick={onClose}
-                  className="close-bottonID">Close</button>
+     
       </div>
       <div className="important-contentID">
     

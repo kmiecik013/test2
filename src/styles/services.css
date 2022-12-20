@@ -7,11 +7,10 @@
 }
 
 
-.subtitle-service {
-  font-family:'Dancing Script', cursive;
+.service-subtitle {
+  font-family: "Overpasss";
   text-align: center;
-  font-size:35px;
-  padding-bottom: 50px;
+  font-size:30px;
 }
 
 .react-multi-carousel-dot-list {
@@ -55,10 +54,7 @@
   padding:10px;
   height: 1000px;
 }
-.subtitle-text {
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-}
+
 
 .slider-part {
  padding-top: 70px;
@@ -68,9 +64,10 @@
   
 .service-title {
   font-family: 'Antro_Vectra_Bold';
-  font-size: 100px;
+  font-size: 80px;
+  font-weight: bolder;
   margin-left: 80px;
- margin-top: 50px;
+  margin-top: 50px;
 }
 
 .future-sess {

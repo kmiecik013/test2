@@ -11,12 +11,14 @@
   border: solid 2px black;;
   animation:ease-in-out;
   transition: 0.5s;
+  margin: 10px 0 30px 0;
 }
 
 .footer-flag-image {
   height: 80px;
   width: 160px;
   border: solid 2px black;
+  margin: 20px 0 0 0;
 }
 
 .main-footer-section {
@@ -89,8 +91,9 @@
 .main-contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 10px;
-  margin: 50px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .company-desc  {
@@ -101,7 +104,7 @@
 
 .name-pic-pair {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   margin: 5px 0;
 
 }
@@ -131,7 +134,7 @@
   font-size: 45px;
   color:#e7fade;
   font-family: "Overpasss";
-  margin: 10px 0 0 0;
+  margin: 10px 20px 0 0;
 }
 
 .info-text {
@@ -157,7 +160,7 @@
 
 
 .phone-number{
-  margin: 10px 0 0 0;
+  margin: 10px 0 20px 0;
   font-size: 25px;
   font-family: "Poppins";
 }
@@ -192,7 +195,7 @@
   }
 
   .footer-flag-image {
-    margin: 25px 0 0 0;
+    margin: 40px 0 0 0;
   }
 
 
@@ -200,7 +203,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
   }
 
   .column-organization {
@@ -213,16 +216,24 @@
   .main-contact {
     display: flex;
     flex-direction: column;
+    margin: 50px 0 0 0;
   }
   .sage-email {
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
     font-style: italic;
     font-family: "Poppins";
   }
 
   .info-text {
     font-size: 16px;
+    margin: 20px 0 0 0;
+  }
+
+  .phone-number{
+    margin: 10px 0 20px 0;
+    font-size: 25px;
+    font-family: "Poppins";
   }
 
   }

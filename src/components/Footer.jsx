@@ -60,15 +60,16 @@ export default function Footer() {
           
 
           <div className="main-contact">
+            <div className="name-pic-pair">
+                <FaPhoneAlt className="left-tag" />
+                <p className="info-text phone-number">(416) 570 9210</p>
+              </div>
               
               <div className="name-pic-pair">
                 <IoMapSharp className="left-tag" />
                 <p className="info-text">Calgary, Alberta, Canada hello </p>
               </div> 
-              <div className="name-pic-pair">
-                <FaPhoneAlt className="left-tag" />
-                <p className="info-text phone-number">(416) 570 9210</p>
-              </div>
+              
               <div className="name-pic-pair name-pic-pair-email">
                 <MdEmail className="left-tag" />
                 <p className="info-text sage-email">sageandcedar.arttherapy@gmail.com</p>

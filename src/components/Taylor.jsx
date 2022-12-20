@@ -24,7 +24,7 @@ export default function Taylor() {
         <div className="all-descriptions">
           
           <h1 className="taylor-title">
-        Meet Tayler yah
+        Meet Tayler
       </h1>
           <div className="all-descriptions">
           <p className="tayler-description">

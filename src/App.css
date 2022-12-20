@@ -44,7 +44,7 @@ cursor: pointer;
 
 .top {
   position: absolute;
-  height: 100%;
+  height: 100vh;
   width:100%;
   transform: translateZ(-5px) scale(1.5);
 
@@ -52,7 +52,7 @@ cursor: pointer;
 
 .bottom {
   position: relative;
-  transform:translateZ(-30) scale(4) ;
+  transform:translateZ(-20) scale(3) ;
 
 }
 

@@ -22,6 +22,8 @@ function App() {
 
 
 <div>
+  
+  <BacktoTop />
 
  <div className="gethelp-postioning">
 
@@ -31,11 +33,12 @@ function App() {
         </Modal>
 
 
-      </div>
-      
+      </div> 
+ 
+
    <div className="wrapper">
 
-
+ 
 
 
 
@@ -64,7 +67,7 @@ function App() {
     <Taylor />
 
 
-      <BacktoTop />
+     
 
       <Service />
       <Contact />
@@ -73,9 +76,12 @@ function App() {
 
       <Acknowledgement />
       <Footer />
+      
 
    </div>
 </div>
+
+
 
 </div>
   

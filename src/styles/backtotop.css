@@ -1,13 +1,13 @@
 .uptotop-button {
-  position:fixed;
+  position:absolute;
   bottom: 30px;
   left: 30px;
   font-size: 40px;
   border-radius: 30px;
-  z-index: 1000;
   animation: ease-in;
   transition: 0.5s;
   color: rgb(93, 91, 91);
+  z-index: 1000000;
 
 }
 

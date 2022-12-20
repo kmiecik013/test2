@@ -10,7 +10,7 @@ export default function Sage2() {
 
 
   return (
-    <div className="home-sage">
+    <div className="home-sage2">
      
     <Dots />
     <Leaf />

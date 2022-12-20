@@ -1,4 +1,4 @@
-.home-sage {
+.home-sage2 {
   display: flex;
   justify-content: center;
   padding-bottom: 80px;
@@ -35,7 +35,7 @@
 
 
 @media (max-width: 1024px){
-  .home-sage {
+  .home-sage2 {
     display: flex;
     justify-content: center;
     margin-top: 150px;
@@ -50,7 +50,7 @@
 
 
 @media (max-width: 768px){
-  .home-sage {
+  .home-sage2 {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -82,10 +82,10 @@
 }
 
 @media (max-width: 425px){
-  .home-sage {
+  .home-sage2 {
     display: flex;
     justify-content: center;
-    margin: 20px 10px 10px 10px;
+    margin: 40px 10px 0px 10px;
     opacity: 0.5;
     padding-bottom: 0px;
     transform: scale(0.8)
@@ -100,7 +100,7 @@
 }
 
 @media (max-width: 375px){
-  .home-sage {
+  .home-sage2 {
     display: flex;
     justify-content: center;
     margin-top: 15px;

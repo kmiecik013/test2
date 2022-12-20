@@ -21,19 +21,16 @@ export default function Footer() {
       <div className="column-organization"> 
 
         <div className="company-column">
-          <div className="company-desc">
           <img
             href="#home"
             className="footer-logo-image"
             src= {logo} />
-          <p className="mini-footer-description">
-            </p>
-          </div>
-          <div>
+    
+          
             <img
             className="footer-flag-image"
             src= {flag} />
-          </div>
+          
         </div>
 
         <div className="about-column">

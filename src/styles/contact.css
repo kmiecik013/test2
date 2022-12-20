@@ -360,8 +360,7 @@
 
   .form-structure {
     border-radius: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0 0px 10px 0;
   }
 
   .more-structure{

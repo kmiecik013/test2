@@ -21,8 +21,6 @@
   margin-top: 850px;
   background-color: white;
   border-top: 3px solid black;
-  
-
 }
 
 .about-page-structure {
@@ -46,8 +44,6 @@
   width:750px;
   border-radius: 10px 10px 10px 10px;
 }
-
-
 
 .about-page-structure {
   display: flex;
@@ -298,6 +294,39 @@
   margin: 10px 10px 10px 10px;
 
 }
+
+}
+
+@media (min-width: 1800px){
+  .art-therapy-description {
+    margin-left: 40px;
+    margin-right: 50px;
+  } 
+
+  .sage-img {
+    margin-right: 100px;
+  }
+
+  .art-subtitle {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 2200px){
+  .art-therapy-description {
+    margin-left: 100px;
+    margin-right: 120px;
+  } 
+
+  .sage-img {
+    margin-right: 170px;
+  }
+
+  .art-subtitle {
+    margin-left: 40px;
+  }
+
+ 
 
 }
 

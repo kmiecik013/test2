@@ -30,8 +30,6 @@
 
 .react-multi-carousel-dot-list {
   position:relative!important;
-  
-
 }
 
         
@@ -65,7 +63,7 @@
   
 .service-title {
   font-family: 'Antro_Vectra_Bold';
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bolder;
   margin-left: 80px;
   margin-top: 50px;
@@ -171,8 +169,7 @@
     font-size: 50px;
     margin-top: 0px;
     margin-bottom: 20px;
-    text-align: center;
-    
+    text-align: center;  
   }
   
   .service-bottom-note {
@@ -185,6 +182,7 @@
   .carousel1 {
     display:none;
   }
+}
 
-
+@media (min-width: 1700px){
 }

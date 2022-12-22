@@ -33,7 +33,9 @@ export default function Footer() {
           
         </div>
 
-        <div className="about-column">
+    <div className="about-service-section">
+        
+        <div className="about-column">  
             <h1 className="subtitle">About</h1>
             <div className="footer-list">
             <a className="about-list-item" href="/">Home</a>
@@ -41,8 +43,8 @@ export default function Footer() {
             <a className="about-list-item" href="#therapist">Taylor Bio</a>
             <a className="about-list-item" href="#services">Offerigs</a>
             <a className="about-list-item" href="#contact">Email Us</a>
-            </div>
-        </div>
+          </div>
+          </div>
 
         <div className="services-column">
           <h1 className="subtitle">Services</h1>
@@ -52,6 +54,7 @@ export default function Footer() {
           <a className="service-list-item" href="#services">Group Therapy</a>
           <a className="service-list-item" href="#services">Mini Cooper</a>
           <a className="service-list-item" href="#services">Team Building</a>
+          </div>
           </div>
         </div>
 

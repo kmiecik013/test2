@@ -11,8 +11,7 @@ export default function Video() {
         defaultMuted autoplay controls
         autoPlay={true} 
         loop={true}
-        muted={true}
-        playsincline={true}
+        muted defaultmuted playsinline
         className="video-source">
           <source src={video}
           type="video/mp4"/>

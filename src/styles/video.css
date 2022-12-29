@@ -32,3 +32,10 @@
     height: 900px;
 }
 }
+
+
+@media (min-width: 1700px){
+  .video-source {
+    object-fit: cover;
+    }
+}

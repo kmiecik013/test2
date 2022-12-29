@@ -8,17 +8,14 @@ export default function Video() {
     <div>
       <video
         type="video/mp4"
-
-        loop="loop" 
-        muted defaultMuted playsinline  
-        oncontextmenu="return false;"  
-        preload="auto" 
+        defaultMuted autoplay controls
         autoPlay={true} 
         loop={true}
         muted={true}
         playsincline={true}
         className="video-source">
-          <source src={video}/>
+          <source src={video}
+          type="video/mp4"/>
           </video>
  
     </div>

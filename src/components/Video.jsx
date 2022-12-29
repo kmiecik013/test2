@@ -8,6 +8,11 @@ export default function Video() {
     <div>
       <video
         type="video/mp4"
+
+        loop="loop" 
+        muted defaultMuted playsinline  
+        oncontextmenu="return false;"  
+        preload="auto" 
         autoPlay={true} 
         loop={true}
         muted={true}

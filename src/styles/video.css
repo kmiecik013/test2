@@ -36,6 +36,6 @@
 
 @media (min-width: 1700px){
   .video-source {
-    object-fit: contain;
+    object-fit: cover;
     }
 }

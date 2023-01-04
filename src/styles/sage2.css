@@ -56,7 +56,10 @@
     margin-top: 80px;
     margin-bottom: 10px;
     transform: scale(1);
+    padding: 0 0 20px 0;
+    margin: 60px 0 0 0;
   }
+
 }
 
 .sageleaf {

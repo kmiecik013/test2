@@ -1,18 +1,21 @@
 
-import video from "../video/Sage.mp4"
+import video from "../video/joe.mp4"
 import "../styles/video.css"
 
 export default function Video() {
 
   return (
     <div>
-      <video src={video} 
-        type="video/mp4"
-        autoPlay 
-        loop
-        muted
-        className="video-source"/>
- 
+      <video
+type="video/mp4"
+defaultMuted autoplay controls
+autoPlay="autoplay"
+loop muted playsinline
+className="video-source">
+  <source src={video}
+  type="video/mp4"/>
+  </video>
+
     </div>
   )
 

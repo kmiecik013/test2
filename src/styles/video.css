@@ -23,6 +23,7 @@
 
   .home-overlay {
     height: 100vh;
+    display: none;
 }
 }
 

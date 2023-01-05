@@ -6,7 +6,7 @@ export default function Gif() {
     <div>
       <img 
         src={sage} alt="loading..."
-        className="" />
+        className="gif-background" />
     </div>
   )
 

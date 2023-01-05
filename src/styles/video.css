@@ -16,21 +16,24 @@
 @media (max-width: 768px){
 
   .video-source {
+    display: none;
   height: 1000px;
   object-fit: cover;
   }
+
+  .home-overlay {
+    height: 100vh;
+}
 }
 
 @media (max-width: 450px){
 
   .video-source {
+  
   height: 900px;
   }
 
-  .home-overlay {
-    
-    height: 900px;
-}
+
 }
 
 

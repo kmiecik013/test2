@@ -8,16 +8,13 @@ export default function Video() {
     <div>
       <video
         type="video/mp4"
-        defaultMuted autoplay controls
         autoPlay={true} 
         loop={true}
         muted defaultmuted playsinline
         className="video-source">
           <source src={video}
           type="video/mp4"/>
-          </video>
- 
+          </video> 
     </div>
   )
-
   }

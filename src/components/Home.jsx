@@ -2,6 +2,7 @@ import "../styles/home.css";
 import SCtitle from "./SCtitle";
 import Sage2 from "./Sage2";
 import Video from "./Video";
+import Gif from "./Gif";
 import video from "../video/Sage.mp4";
 import "../styles/video.css";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="home-overlay">
         <div className="home-page" id="home">
           <Video />
+          <Gif />
         </div>
       </div>
     </div>

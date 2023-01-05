@@ -1,13 +1,15 @@
 .gif-background {
-  display: none;
-}
+    display: initial;
+    object-fit: cover;
+    height: 100%;
+  }
 
 @media (max-width: 768px){
 
   .gif-background {
     display: initial;
-    object-fit: contain;
-    height: 100vh;
+    object-fit: cover;
+    height: 100%;
   }
 
 }

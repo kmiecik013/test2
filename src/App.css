@@ -128,6 +128,21 @@ cursor: pointer;
     border-radius: 5px;
     font-size: 20px;
  }
+
+
+.top {
+  position: absolute;
+  height: 100vh;
+  width:100%;
+  transform: translateZ(-10px) scale(2);
+
+}
+
+.bottom {
+  position: relative;
+  transform:translateZ(-20) scale(3) ;
+
+}
 } 
 
  @media (max-width: 375px){

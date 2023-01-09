@@ -8,7 +8,7 @@
 
   .gif-background {
     display: initial;
-    object-fit: contain;
+    object-fit: fill;
     height: 100vh;
   }
 

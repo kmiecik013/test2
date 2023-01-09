@@ -273,7 +273,7 @@
   }
 
   .footer-flag-image {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
   .company-column {
@@ -309,8 +309,8 @@
   }
 
   .phone-number{
-    margin: 10px 0 20px 0;
-    font-size: 30px;
+    margin: 10px 0 0px 0;
+    font-size: 16px;
     font-family: "Poppins";
   }
 

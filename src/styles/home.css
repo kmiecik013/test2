@@ -22,7 +22,14 @@
   text-align: center;
   left:-50%;
   right:-50%;
+}
 
+.tranquility-title2 {
+  display: none;
+}
+
+.tranquility-title3 {
+  display: none;
 }
 
 .home-page {
@@ -75,6 +82,7 @@
 
 
 @media (max-width: 768px){ 
+
   .fade-in-text {
     font-size: 40px;
     color: white;
@@ -106,8 +114,49 @@
 
 
 @media (max-width: 425px){ 
+
+  .tranquility-title2 {
+    display: initial;
+    padding:280px 0 0 0;
+  font-family: Antro_Vectra_Bold;
+  color:white;
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 10px black;
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  left:-50%;
+  right:-50%;
+  }
+
+  .tranquility-title3 {
+    display: initial;
+    padding:380px 0 0 0;
+  font-family: Antro_Vectra_Bold;
+  color:white;
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 10px black;
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  left:-50%;
+  right:-50%;
+  }
+
+
+  .tranquility-title {
+    display: none;
+  }
+
   .home-page {
     height:none;
+  }
+
+  .tranquility-title {
+    font-size: 30px;
+    padding:380px 0 0 0;
   }
 
   .fade-in-text {

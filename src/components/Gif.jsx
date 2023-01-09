@@ -1,11 +1,11 @@
-import "../styles/gif.css";
-import gif from "../gifs/sage.gif";
+import "../styles/gif.css"
+import sage from "../gifs/leaves.gif"
 
 export default function Gif() {
   return (
     <div>
       <img 
-        src={gif} alt="loading..."
+        src={sage} alt="loading..."
         className="gif-background" />
     </div>
   )

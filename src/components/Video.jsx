@@ -1,5 +1,5 @@
 
-import video from "../video/Sage.mp4"
+import video from "../video/joe.mp4"
 import "../styles/video.css"
 
 export default function Video() {

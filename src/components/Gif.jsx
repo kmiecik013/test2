@@ -1,5 +1,5 @@
 import "../styles/gif.css"
-import sage from "../gifs/more.gif"
+import sage from "../gifs/leaves.gif"
 
 export default function Gif() {
   return (

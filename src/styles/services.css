@@ -114,11 +114,19 @@
 @media (max-width: 425px){
 
   .service-title {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Antro_Vectra_Bold';
+    font-weight: bolder;
     font-size: 70px;
-    margin-top: 80px;
-    margin-bottom: 0px;
-    margin-left: 80px;
+    margin: 80px 0 0 0;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .service-subtitle {
+    margin: 40px 10px 30px 10px; 
+    font-size: 25px;
+    font-family: "Overpass";
+    color:black;
   }
 
   .upcoming-sess-title {
@@ -145,24 +153,8 @@
   margin-right: 0px !important;
  }
 
-}
-
-
-@media (max-width: 425px){
-
   .slider-part {
     padding-top:30px;
-  }
-
-
-  .service-title {
-    font-family: 'Antro_Vectra_Bold';
-    font-size: 70px;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: 0;
-    text-align: center;
-    padding-bottom: 0px;
   }
 
   .upcoming-sess-title {

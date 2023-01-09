@@ -213,8 +213,6 @@
 
 @media (max-width: 768px){
 
-
-
   .main-contact {
     display: flex;
     flex-direction: column;
@@ -256,9 +254,13 @@
     margin: 0 20px 0 0;
 }
 
-.footer-flag-image {
+  .footer-flag-image {
   margin: 30px 0 0 20px;
 }
+
+  .left-tag {
+    margin: 10px 20px 0 0;
+  }
 }
 
 @media (max-width: 425px){
@@ -298,14 +300,14 @@
 
   .sage-email {
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 0px;
     font-style: italic;
     font-family: "Poppins";
   }
 
   .info-text {
     font-size: 16px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   .phone-number{

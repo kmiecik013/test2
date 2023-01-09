@@ -26,6 +26,7 @@ export default function Taylor() {
           <h1 className="taylor-title">
         Meet Tayler
       </h1>
+      
           <div className="all-descriptions">
           <p className="tayler-description">
             My name is Tayler Schenkeveld. I am a Métis woman and professionally

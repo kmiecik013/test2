@@ -2,16 +2,27 @@
   font-family: Antro_Vectra_Bold;
   src: url("../fonts/Antro_Vectra_Bolder.otf");
 }
+
+@font-face {
+  font-family: Cursive_option;
+  src: url("../fonts/Cursive\ Option.ttf");
+}
+
+@font-face {
+  font-family: Beyond;
+  src: url("../fonts/Beyond\ Infinity\ -\ Demo.ttf");
+}
+
 .slick-slide  {
   margin-top: 10px !important;
 }
 
 
 .service-subtitle {
-  font-family: "Overpasss";
+  font-family: "Beyond";
   text-align: center;
-  font-size:30px;
   color:#728153;
+  font-size: 65px;;
 }
 
 .react-multi-carousel-dot-list {
@@ -103,7 +114,6 @@
 
   .subtitle-text {
     font-family: "Overpasss";
-    font-style: italic;
     font-size: 10px;
     width: 500px;
   }
@@ -123,20 +133,23 @@
   }
 
   .service-subtitle {
-    margin: 40px 10px 30px 10px; 
-    font-size: 25px;
-    font-family: "Overpass";
-    color:black;
+    margin: 50px 15px 0px 15px; 
+    font-size: 40px;
+    font-family: "Beyond";
+    color:#728153;
   }
 
   .upcoming-sess-title {
     font-family: 'Dancing Script', cursive;
-    font-size: 60px;
+    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 20px;
     
   }
   
+
+
+
   .service-bottom-note {
     font-family: "Overpass";
     font-style: italic;

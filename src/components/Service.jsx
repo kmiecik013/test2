@@ -44,7 +44,7 @@ return (
   <div className="service-part">
   
     <h1 className="service-title" id="services">Offerings</h1>
-    <h2 className="service-subtitle">Choose from our numerous offerings to help you or a loved one!</h2>
+    <h2 className="service-subtitle">Choose from our numerous offerings to help you or a loved one</h2>
   
     <div className="slider-part">
 

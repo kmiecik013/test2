@@ -125,7 +125,7 @@ a:-webkit-any-link {
 }
 
 .element-inside:hover {
-  transform: scale(1.5);
+  transform: scale(1.0);
 }
 
 .Navbar > .nav-items > a:hover {

@@ -54,18 +54,14 @@ export default function Contact() {
 
           <div className="top-layer">
             
-            <IoLeafOutline
-             className="contact-leaf-left">
-              </IoLeafOutline>
+           
           <div className="subtitles">
           <h1 className="contact-subtitle1">
             Ready to take the next step? </h1>
             <h1 className="subtitle2">Send us a message!
           </h1>
           </div> 
-          <IoLeafOutline
-             className="contact-leaf-right">
-              </IoLeafOutline>
+  
           </div>
           <div className="more-structure">
           

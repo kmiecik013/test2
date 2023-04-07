@@ -97,7 +97,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 10px;
-  margin: 25px 0 0 0;
+  margin: 25px 0 10px 0;
 }
 
 .company-desc  {
@@ -182,6 +182,10 @@
 .about-service-section {
   display: flex;
   justify-content: space-between;
+}
+
+.contact-column {
+  margin: 0 0 20px;
 }
 
 

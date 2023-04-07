@@ -1,5 +1,5 @@
 import "../styles/gif.css"
-import sage from "../gifs/leaves.gif"
+import sage from "../gifs/Sage2.gif"
 
 export default function Gif() {
   return (
@@ -10,4 +10,4 @@ export default function Gif() {
     </div>
   )
 
-  }
+  } 

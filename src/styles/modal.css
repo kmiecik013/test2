@@ -204,7 +204,7 @@
   color: white;
 }
 .distres-box {
-  margin: 20px 10px 40px 10px;
+  margin: 10px 10px 40px 10px;
   padding: 20px 0 5px 0;  
 }
 .distress-number:hover {
@@ -230,18 +230,17 @@
 
 .distress-title {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Poppins";
-  margin-bottom: 7px;
-  margin-top: 0px;
+  margin: 0 10px 10px 7px;
+
 }
 
 .NIRSC-title {
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
   font-family: "Poppins";
-  margin-bottom: 7px;
-  margin-top: 0px;
+  margin: 0 10px 10px 7px;
 }
 
 }
